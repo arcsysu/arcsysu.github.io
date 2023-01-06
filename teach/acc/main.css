@@ -1,0 +1,272 @@
+body {
+    /*font-family: 'gentium';*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: "PT Serif", gentium;*/
+    font-size: 12pt;
+    line-height: 1.5em;
+    color: #000;
+}
+
+del {
+		color: #f00;
+}
+del span {
+		color: #000;
+}
+
+div#header {
+    margin: auto;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#000;
+    color: #fff;
+    font-size:28px;
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-top:1px dotted #808080;
+} 
+
+hr.paper{ 
+    height:1px; 
+    visibility:hidden; 
+    margin-bottom:-1px; 
+}
+
+p.small{
+    line-height:0.5;
+}
+
+#NOTE {
+    margin: -12px auto 0px auto;
+}
+
+div#YR {
+    text-align: center;
+}
+
+#NOTE:target {
+    background-color:#ffa;
+    -webkit-transition: all is linear;
+}
+
+/*
+    The class Selector
+    Selects elements with a specific class attribute.
+    
+    CSS:
+    .center {
+        text-align: center;
+        color: red;
+    }
+ 
+    HTML:
+    <h1 class="center"> xxx </h1>
+    <p class="center"> xxx </p>
+ 
+    Specify that only specific HTML elements should be affected by a class:
+    p.center {
+        text-align: center
+        color: red;
+    }
+ */
+.container {
+    margin: auto;
+    width: 800px;
+    /*border:3px solid #8AC007;*/
+    padding: 10px;
+}
+
+table#BIO {
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.fleft {
+    float: left;
+    width: 120%;
+    padding: 2px;
+}
+
+.fmiddle {
+    float: center;
+    width: 30%;
+    padding: 2px;
+}
+
+.fright {
+    float: right;
+    width: 90%;
+    padding: 2px;
+}
+
+td { vertical-align: top; }
+td.middle {vertical-align: middle; }
+
+nav
+{
+    text-align:center;
+    background-color:#000;
+    
+}
+
+#banner nav {
+    background: #000305;
+    font-size: 1.143em;
+    height: 50px;
+    line-height: 30px;
+    margin: 0 auto 2em auto;
+    padding: 0;
+    
+    border-radius: 5px;
+}
+
+#banner nav ul {list-style: none; margin: 0 auto; width: 100%;}
+#banner nav li {float: left; display: inline; margin: 0;}
+
+#banner nav a:link {
+    color: #09c;
+    display: inline-block;
+    height: 30px;
+    padding: 5px 1.5em;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left:25px;
+    padding-right:5px;
+    padding-top:-10px;
+    margin: 0px;
+}
+
+ul li
+{
+    /*display:inline;*/
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom: 0;
+    margin: 0;
+    text-align:left;
+    font-size:16px;
+    font-weight:normal;
+}
+
+/*  The id Selector
+    Uses the id attribute of an HTML element to select a specific element.
+    An id should be unique within a page, so the id selector is used if u want to select a single, unique element.
+    To select an element with a specific id: #id_name
+ 
+    CSS:
+    #para1 {
+        text-align: center;
+        color: red;
+    }
+    HTML:
+    <p id="para1">Hello World!</p>
+ 
+    h1#para1 {
+    }
+    h1#para2 {
+    }
+ 
+    <h1 class='xx' id='para1'> aaa </h1>
+    <h1 class='xx' id='para2'> bbb </h2>
+ */
+
+/*
+    Grouping Selectors
+ 
+    CSS:
+    h1, h2, p {
+        text-align: center;
+        color: red;
+    }
+ 
+    HTML:
+    <h1> xxx </h1>
+    <h2> yyy <h2>
+    <p> zzz <p>
+ */
+
+#section_title {
+    text-align: left;
+    font-size: 24px;
+}
+span.highlight {
+    background-color: none;
+}
+
+header
+{
+    padding:0px;
+    text-align:center;
+}
+
+footer
+{
+    padding:5px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.link-other {
+    text-decoration: none;
+    color: #09c;
+}
+
+.link-other:hover {
+    color: #036;
+}
+
+.link-body{ text-decoration: none; border-bottom:1px dotted; border-color:#555; color: #555;}
+.link-body:hover{ 
+    border-color:red; 
+}
+.link-body:visited{
+    /*color:#000000;*/
+}
+
+span.me {
+    font-weight: bold;
+    color: #808080;
+}
+
+span.hl {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+img.profile {
+    vertical-align: middle;
+    width: 70%;
+}
+
+img.tiny_img {
+    height: 15px;
+}
+
+img.name {
+    vertical-align: middle;
+    width: 80px;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sysu_dcs290</title>
+        <link href="../acc/main.css" rel="stylesheet" />
+    </head>
+<center>
+	<p><font size="+2" face="Arial, Helvetica, sans-serif" color="#004c00"><b>SYSU-DCS290： 编译原理 (Compilation Principle)，Spring 2021</b></font>
+	</p>
+</center>
+
+    <body class='container'>
+         <h2 id='section_title'> <span class='highlight'> <font color="#006600"> > Instructor</font></span></h2>
+     - <a class="link-other" href="http://sdcs.sysu.edu.cn/content/5592">张献伟</a><br>
+     - <b>Email</b>: zhangxw79[AT]mail.sysu.edu.cn<br>
+     - <b>Office Hours</b>: Thu 16:20 - 18:00 (实验中心 E401)
+	 <h2 id='section_title'> <span class='highlight'><font color="#006600"> > Teaching Assistants</font></span></h2>
+     - 莫泽威 (mozw5[AT]mail2.sysu.edu.cn)<br>
+	    - <a class="link-other" href="https://ziyan-wang.github.io/">王子彦</a> (wangzy75[AT]mail2.sysu.edu.cn)
+         <h2 id='section_title'> <span class='highlight'> <font color="#006600"> > Lecture</font></span></h2>
+     - <b>Time</b>: Tue 14:20 - 16:00 (wk2-9), Thu 14:20 - 16:00 (wk1-19)<br>
+     - <b>Location</b>: 教学大楼 C303
+         <h2 id='section_title'> <span class='highlight'> <font color="#006600"> > Lab</font></span></h2>
+     - <b>Time</b>: Thu 16:20 - 18:00 (wk1-19)<br>
+     - <b>Location</b>: 实验中心 E401
+	 <p>
+         <h2 id='section_title'> <span class='highlight'><font color="#006600"> > Discussion</font></span></h2>
+	    - <b>QQ Group</b>: 905213666
+         <p>
+         <h2 id='section_title'> <span class='highlight'><font color="#006600"> > Schedule</font></span></h2>
+         <p>
+
+
+<table width="100%" border="2" cellspacing="0" cellpadding="0">
+ <tr bgcolor="#C8C4B3">
+  <td width="15%"><font face="Arial, Helvetica, sans-serif"><b>Week/Date</b></font>
+  </td>
+  <td width="50%"><font face="Arial, Helvetica, sans-serif"><b>Topic</b></font>
+  </td>
+  <td width="35%" align="center"><font face="Arial, Helvetica, sans-serif">
+     <b>Note</b></font>
+  </td>
+ </tr>
+
+ <tr>
+  <td>wk1: Feb 25</td>
+	 <td><a class="link-other" href="slides-21/lec_0.pdf"><img src="../acc/PDF_icon.png" height=20 /> Overview</a></td>
+  <td align="center"><img src="../acc/PDF_icon.png" height=20 /> Lab: Linux Basics</td>
+ </tr>
+
+ <tr bgcolor="#E2E2E2">
+  <td>wk2: Mar 2</td>
+  <td><a class="link-other" href="slides-21/lec_1.pdf"><img src="../acc/PDF_icon.png" height=20 /> Lexical Analysis: Intro, RegEx</a></td>
+  <td align="center"></td>
+ </tr>
+ <tr bgcolor="#E2E2E2">
+  <td>wk2: Mar 4</td>
+  <td><a class="link-other" href="slides-21/lec_2.pdf"><img src="../acc/PDF_icon.png" height=20 /> Lexical Analysis: NFA, DFA (1)</a></td>
+  <td align="center"><img src="../acc/PDF_icon.png" height=20 /> Lab: Lex Tool</td>
+ </tr>
+
+ <tr>
+  <td>wk3: Mar 9</td>
+  <td><a class="link-other" href="slides-21/lec_3.pdf"><img src="../acc/PDF_icon.png" height=20 /> Lexical Analysis: NFA, DFA (2)</a></td>
+  <td align="center">
+      <img src="../acc/PDF_icon.png" height=20 /><font color="purple"> HW1</font> [sol]
+      <br><img src="../acc/zip_icon.png" height=20 /><font color="purple"> Proj1: Lexical Analyzer</font>
+  </td>
+ </tr>
+ <tr>
+  <td>wk3: Mar 11</td>
+  <td><a class="link-other" href="slides-21/lec_4.pdf"><img src="../acc/PDF_icon.png" height=20 /> Syntax Analysis: Intro, CFG</a></td>
+  <td align="center">Lab: proj1</td>
+ </tr>
+
+ <tr bgcolor="#E2E2E2">
+  <td>wk4: Mar 16</td>
+  <td><a class="link-other" href="slides-21/lec_5.pdf"><img src="../acc/PDF_icon.png" height=20 /> Syntax Analysis: CFG, Top-down (1)</a></td>
+  <td align="center"><font color="red">HW1 due</font></td>
+ </tr>
+ <tr bgcolor="#E2E2E2">
+  <td>wk4: Mar 18</td>
+  <td><a class="link-other" href="slides-21/lec_6.pdf"><img src="../acc/PDF_icon.png" height=20 /> Syntax Analysis: Top-down (2)</a></td>
+  <td align="center"><img src="../acc/PDF_icon.png" height=20 /> Lab: proj1 Q&A</td>
+ </tr>
+
+ <tr>
+  <td>wk5: Mar 23</td>
+  <td><a class="link-other" href="slides-21/lec_7.pdf"><img src="../acc/PDF_icon.png" height=20 /> Syntax Analysis: Bottom-up</a></td>
+  <td align="center"></td>
+ </tr>
+ <tr>
+  <td>wk5: Mar 25</td>
+  <td><a class="link-other" href="slides-21/lec_8.pdf"><img src="../acc/PDF_icon.png" height=20 /> Syntax Analysis: LR(0)</a></td>
+  <td align="center"><img src="../acc/PDF_icon.png" height=20 /> Lab: YACC Tool<br>(<font color="red">Proj1 due</font>)
+  </td>
+ </tr>
+
+ <tr bgcolor="#E2E2E2">
+  <td>wk6: Mar 30</td>
+  <td><a class="link-other" href="slides-21/lec_9.pdf"><img src="../acc/PDF_icon.png" height=20 /> Syntax Analysis: LR(0), SLR</a></td>
+  <td align="center"><img src="../acc/zip_icon.png" height=20 /><font color="purple"> Proj2: Parser</font></td>
+ </tr>
+ <tr bgcolor="#E2E2E2">
+  <td>wk6: Apr 1</td>
+  <td><a class="link-other" href="slides-21/lec_10.pdf"><img src="../acc/PDF_icon.png" height=20 /> Syntax Analysis: SLR, LALR</a><img src="../acc/quiz_icon.png" height=20 /></td>
+  <td align="center"><img src="../acc/PDF_icon.png" height=20 /> Lab: proj2</td>
+ </tr>
+<tr>
+  <td>wk7: Apr 6</td>
+  <td><a class="link-other" href="slides-21/lec_11.pdf"><img src="../acc/PDF_icon.png" height=20 /> Syntax: LALR, Semantic Analysis: Intro</a></td>
+  <td align="center"><img src="../acc/PDF_icon.png" height=20 /><font color="purple"> HW2</font>[sol]
+  </td>
+ </tr>
+ <tr>
+  <td>wk7: Apr 8</td>
+  <td><a class="link-other" href="slides-21/lec_12.pdf"><img src="../acc/PDF_icon.png" height=20 /> Semantic Analysis: Syntax Directed Trans. (1)</a></td>
+  <td align="center"><img src="../acc/PDF_icon.png" height=20 /> Lab: proj2 Q&A</td>
+ </tr>
+
+ <tr bgcolor="#E2E2E2">
+  <td>wk8: Apr 13</td>
+  <td><a class="link-other" href="slides-21/lec_13.pdf"><img src="../acc/PDF_icon.png" height=20 /> Semantic Analysis: Syntax Directed Trans. (2)</a></td>
+  <td align="center"></td>
+ </tr>
+ <tr bgcolor="#E2E2E2">
+  <td>wk8: Apr 15</td>
+  <td><a class="link-other" href="slides-21/lec_14.pdf"><img src="../acc/PDF_icon.png" height=20 /> Semantic Analysis: SDT (3), Symbol Table</a></td>
+  <td align="center">Lab (<font color="black"><del>Proj2 due</del></font>)</td>
+ </tr>
+
+ <tr>
+  <td>wk9: Apr 20</td>
+  <td><a class="link-other" href="slides-21/lec_15.pdf"><img src="../acc/PDF_icon.png" height=20 /> Semantic Analysis: Symbol Table, Type Checking</a></td>
+  <td align="center"><img src="../acc/zip_icon.png" height=20 /><font color="purple"> Proj3: Semantic</td>
+ </tr>
+ <tr>
+  <td>wk9: Apr 22</td>
+  <td>Seminar: GCC, LLVM and more ... ( <a class="link-other" href="slides-21/talk1_Mo.pdf"><img src="../acc/PDF_icon.png" height=20 />talk1</a>, <a class="link-other" href="slides/talk2_Ge.pdf"><img src="../acc/PDF_icon.png" height=20 />talk2</a> )</td>
+    <td align="center">
+	  <img src="../acc/PDF_icon.png" height=20 /> Lab: proj3
+	  <br>(<font color="red">Proj2 due</font>)</td>
+ </tr>
+
+
+ <tr bgcolor="#ECC86E">
+  <td>wk10: Apr 27/29</td>
+  <td>NO CLASS</td>
+  <td align="center"><img src="../acc/PDF_icon.png" height=20 /> Midterm Exercises [sol]
+  </td>
+ </tr>
+
+ <tr>
+  <td>wk11: May 6</td>
+  <td><a class="link-other" href="slides-21/lec_16.pdf"><img src="../acc/PDF_icon.png" height=20 /> Intermediate Code: IR</a></td>
+  <td align="center">Lab</td>
+ </tr>
+
+<tr bgcolor="#E2E2E2">
+  <td>wk12: May 13</td>
+  <td><a class="link-other" href="slides-21/lec_17.pdf"><img src="../acc/PDF_icon.png" height=20 /> Intermediate Code: Generation</a></td>
+  <td align="center">Lab</td>
+ </tr>
+
+ <tr>
+  <td>wk13: May 20</td>
+  <td><a class="link-other" href="slides-21/lec_18.pdf"><img src="../acc/PDF_icon.png" height=20 /> IR Gen, Runtime Management</a></td>
+  <td align="center">Lab
+  <br><img src="../acc/zip_icon.png" height=20 /><font color="purple"> Proj4: Code Generation</font><small>[rev-0603]</small>
+  </td>
+ </tr>
+
+<tr bgcolor="#E2E2E2">
+  <td>wk14: May 27</td>
+  <td><a class="link-other" href="slides-21/lec_19.pdf"><img src="../acc/PDF_icon.png" height=20 /> Runtime, Target Code</a> <img src="../acc/quiz_icon.png" height=20 /></td>
+  <td align="center"><img src="../acc/PDF_icon.png" height=20 /> Lab: proj4 - MIPS Arch
+	  <br>(<font color="red">Proj3 due</font>)</td>
+ </tr>
+
+ <tr>
+  <td>wk15: Jun 3</td>
+  <td><a class="link-other" href="slides-21/lec_20.pdf"><img src="../acc/PDF_icon.png" height=20 /> Target Code Generation</a></td>
+  <td align="center"><img src="../acc/PDF_icon.png" height=20 /> Lab: proj 4 - MIPS Code</td>
+ </tr>
+
+<tr bgcolor="#E2E2E2">
+  <td>wk16: Jun 10</td>
+  <td><a class="link-other" href="slides-21/lec_21.pdf"><img src="../acc/PDF_icon.png" height=20 /> Code Optimization (1)</a> <img src="../acc/quiz_icon.png" height=20 /></td>
+  <td align="center"><img src="../acc/PDF_icon.png" height=20 /> Lab: proj4 Q&A</td>
+ </tr>
+
+ <tr>
+  <td>wk17: Jun 17</td>
+  <td><a class="link-other" href="slides-21/lec_22.pdf"><img src="../acc/PDF_icon.png" height=20 /> Code Optimization (2)</a></td>
+  <td align="center">Lab</td>
+ </tr>
+
+<tr bgcolor="#E2E2E2">
+  <td>wk18: Jun 24</td>
+  <td>Seminar: Advanced Compiling Topics ( <a class="link-other" href="slides-21/golden_age-xianwei.pdf"><img src="../acc/PDF_icon.png" height=20 />Golden Age</a>, <a class="link-other" href="slides-21/smart_contract-Ziyan.pdf"><img src="../acc/PDF_icon.png" height=20 />Smart Contract</a> )</td>
+	<td align="center">Lab (<font color="red"><del>Proj4 due</del></font>)</td>
+ </tr>
+
+ <tr>
+  <td>wk19: Jul 1</td>
+  <td><a class="link-other" href="slides-21/final_review.pdf"><img src="../acc/PDF_icon.png" height=20 /> Review for Final</a></td>
+  <td align="center">Lab (<font color="red">Proj4 due</font>)</td>
+ </tr>
+
+ <tr bgcolor="#ECC86E">
+  <td>wk20: Jul 8</td>
+  <td>NO CLASS</td>
+  <td align="center"> FINAL EXAM (14:30 - 16:30, A105) </td>
+ </tr>
+
+</table>
+
+
+    </body>
+</html>
