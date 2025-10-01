@@ -1,2 +1,7 @@
 # arcsysu.github.io
-<img width="441" height="216" alt="image" src="https://github.com/user-attachments/assets/6cc8758b-17bd-4eda-abd9-9670c5252755" />
+
+## ARChitecture and SYStem Upscaling @ SYSU
+
+## arcSYSu refines computing system uses
+
+## see xianweiz.github.io to learn more about arcSYSu ...
