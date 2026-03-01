@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <title>sysu_dcs290</title>
+        <link href="acc/main.css" rel="stylesheet" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="icon" type="image/x-icon" href="acc/favicon.ico">
+    </head>
+<center>
+	<p><font size="+2" face="Arial, Helvetica, sans-serif" color="#004c00"><b>SYSU-DCS290/292： 编译原理与实验，Spring 2025</b></font>
+	</p>
+</center>
+
+     <body class='container'>
+        <h2 id='section_title'> <span class='highlight'> <font color="#006600"> > Where & When </font></span></h2>
+        
+        <b>22计科2班：</b>
+        <table width="70%" border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td align="center" width="25%"></td>
+                <td align="center" width="30%"><b>Location</b></td>
+                <td align="center" width="45%"><b>Time</b></td>
+            </tr>
+            <tr>
+                <td align="center"><b>lec</b></td>
+                <td align="center">教学大楼 B501</td>
+                <td align="center">Tue 14:20 - 16:00 (wk1-9) <br>Thu 14:20 - 16:00 (wk1-17)</td>
+            </tr>
+            <tr>
+                <td align="center"><b>lab</b></td>
+                <td align="center">实验中心 B201</td>
+                <td align="center">Thu 16:30 - 18:10 (wk1-17)</td>
+            </tr>
+        </table>
+        <br>
+        <b>计科(系统结构+人工大数据方向)+保密管理(专选)：</b>
+        <table width="70%" border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td align="center" width="25%"></td>
+                <td align="center" width="30%"><b>Location</b></td>
+                <td align="center" width="45%"><b>Time</b></td>
+            </tr>
+            <tr>
+                <td align="center"><b>lec</b></td>
+                <td align="center">教学大楼 C404</td>
+                <td align="center">Tue 08:00 - 09:40 (wk1-9) <br>Thu 08:00 - 09:40 (wk1-17)</td>
+            </tr>
+            <tr>
+                <td align="center"><b>lab</b>（张献伟）</td>
+                <td align="center">实验中心 B203</td>
+                <td align="center">Thu 16:30 - 18:10 (wk1-17)</td>
+            </tr>
+        </table>
+    </body>
+
+	 <h2 id='section_title'> <span class='highlight'><font color="#006600"> > Teaching Staff</font></span></h2>
+      <table width="60%" border="0" cellspacing="0" cellpadding="0">
+        <tr bgcolor="#C8C4B3">
+	  <td width="20%"></td> <td width="16%"></td> <td width="16%"></td> <td width="16%"></td> <td width="16%"></td> <td width="16%"></td>
+        </tr>
+	
+	<tr>
+	  <td><b>Instructor:</b></td> <td><a class="" >郑馥丹</a></td><td><a class="link-body" href="https://xianweiz.github.io/">张献伟</a></td> <td><a class="" >陈志广</a></td> <td></td> <td></td>
+        </tr>
+	<!-- <tr>
+	  <td><b>Co-Instr.:</b></td> <td><a class="link-body" href="https://github.com/LuoWeiLinWillam">罗炜麟</a></td> <td></td> <td></td> <td></td> <td></td>
+        </tr> -->
+
+        <tr>
+	  <td><b>TA</b>:</td>
+    <td width="20%"><a class="link-body" href="http://505676.proxy.nscc-gz.cn:8888/">DeepSeek</a></td>
+		<td><a class="link-body" href="https://yhgu2000.github.io/">顾宇浩</a></td>
+		<td><a class="link-body" href="https://tengyangzh.github.io/">郑腾扬</a></td>
+		<td><a class="link-body" href="https://gemini321.github.io/">潘文轩</a></td>
+		<td><a class="link-body" href="https://hhthebest.github.io/">黄瀚</a></td>
+        </tr>
+        <tr>
+	  <td></td> 
+		<td><a class="link-body" href="https://xhx1022.github.io/">许宏鑫</a></td>
+		<td><a class="link-body" href="https://jingyihe268.github.io/">何静仪</a></a></td>
+    <td>孙高锦</td>
+		<td><a class="link-body" href="https://chen-hq.site/aboutme/">陈淏泉</a></td>
+		<td><a class="link-body" href="https://feifanyulu.github.io/">吴露</a></td> 
+  </tr>
+        <tr>
+          <td></td>
+          <td><a class="link-body" href="https://ouyangyipeng.github.io/">欧阳易芃</a></td>
+          <td><a class="link-body" href="https://ynau0.github.io/yuanblog.github.io/">梁文远</a></td>
+          <td><a class="link-body" href="https://zhengzhch.github.io/">郑中淳</a></td>
+          <td>梁恒中</td>
+          <td>黄鑫</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>陈俊儒</td>
+          <td>韩云昊</td>
+          <td>梁铭恩</td>
+          <td>陈贤杰</td>
+          <td>刘炳杰</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>朱祉昕</td>
+          <td>潘胤臻</td>
+          <td>林绮彤</td>
+          <td>郑晋凯</td>
+        </tr>
+
+        <!-- <tr>
+	  <td></td> <td>孙高锦</td> <td><a class="link-body" href="https://chen-hq.site/aboutme/">陈淏泉</a></td>
+		<td><a class="link-body" href="https://ouyangyipeng.github.io/">欧阳易芃</a></td>
+		<td>潘胤臻</td>
+        </tr> -->
+
+	<!-- <tr>
+	  <td></td> <td> and more ...</td> <td></td> <td></td> <td></td>
+        </tr> -->
+      </table>
+
+         <h2 id='section_title'> <span class='highlight'><font color="#006600"> > Miscellaneous</font></span></h2>
+	    - <b>QQ Group</b>: 1028708396<br>
+	    - <b>Lab Projects</b>: <a class="link-other" href="https://github.com/arcsysu/YatCC">https://github.com/arcsysu/YatCC</a>
+	    [<a class="link-other" href="https://github.com/arcsysu/YatCC/#/">docs</a>]
+	    [<a class="link-other" href="https://space.bilibili.com/3546650047941291">videos</a>]
+	    <br>
+	    - <b>HW/Proj Submission</b>（张献伟老师）: <a class="link-other" href="https://easyhpc.net/course/227">https://easyhpc.net/course/227</a><br>
+      - <b>HW/Proj Submission</b>（郑馥丹老师）: <a class="link-other" href="https://easyhpc.net/course/217">https://easyhpc.net/course/217</a><br>
+	    - <b>Past Semesters</b>: 
+       <a class="link-other" href="https://arcsysu.github.io/teach/dcs290/s2024.html">2024s</a>,
+		 	 <a class="link-other" href="https://arcsysu.github.io/teach/dcs290/s2023.html">2023s</a>,
+		 	 <a class="link-other" href="https://arcsysu.github.io/teach/dcs290/s2022.html">2022s</a>,
+		 	 <a class="link-other" href="https://arcsysu.github.io/teach/dcs290/s2021.html">2021s</a>
+         <p>
+         <h2 id='section_title'> <span class='highlight'><font color="#006600"> > Schedule</font></span></h2>
+         <p>
+
+
+<table width="100%" border="2" cellspacing="0" cellpadding="0">
+ <tr bgcolor="#C8C4B3">
+  <td width="12%"><font face="Arial, Helvetica, sans-serif"><b>Week/Date</b></font>
+  </td>
+  <td width="36%"><font face="Arial, Helvetica, sans-serif"><b>Lecture</b></font>
+  </td>
+  <td width="30%" align="center"><font face="Arial, Helvetica, sans-serif">
+     <b>Lab</b></font>
+  </td>
+  <td width="22%" align="center"><font face="Arial, Helvetica, sans-serif">
+     <b>HW/Note</b></font>
+  </td>
+ </tr>
+
+ <tr>
+  <td>wk1: 2/25</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter00.pdf"><img src="acc/PDF_icon.png" height=20 />Overview</a>
+    <a class="link-other" href="slides-25/Chapter01 概述.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter01 概述</a>
+  </td>
+  <td align="center">
+    <!-- <a class="link-other" href="https://arcsysu.github.io/SYsU-lang2/#/">SYsU-lang Docs</a> -->
+  </td>
+  <td align="center"></td>
+ </tr>
+ <tr>
+  <td>wk1: 2/27</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter02 语言和文法基础（1）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter02 语言和文法基础（1）</a>
+  </td>
+  <td align="center">
+    <font color="purple"><a class="link-other" href="https://github.com/arcsysu/YatCC/tree/main/task/0">proj0</a> out</font>
+	  [<a class="link-other" href="https://arcsysu.github.io/YatCC/#/task0_doc/task0">doc</a>]
+	  [<img src="acc/vid_icon.png" height=20 /><a class="link-other" href="https://www.bilibili.com/video/BV1aT9MYUELm?spm_id_from=333.788.videopod.sections">intro</a>]<br>
+      <a class="link-other" href="slides-25/YatCC-AI_lab0_fudanz.pdf"><img src="acc/PDF_icon.png" height=20 />proj0_zheng</a>
+      <a class="link-other" href="slides-25/YatCC-AI_lab0_xianweiz.pdf"><img src="acc/PDF_icon.png" height=20 />proj0_zhang</a>
+  </td>
+  <td align="center"></td>
+ </tr>
+
+ <tr bgcolor="#E2E2E2">
+  <td>wk2: 3/4</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter02 语言和文法基础（2）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter02 语言和文法基础（2）</a>
+  </td>
+  <td align="center"></td>
+  <td align="center">
+    <a class="link-other" href="slides-25/第二章课后作业.pdf"><img src="acc/PDF_icon.png" height=20 />第二章课后作业</a>
+  </td>
+ </tr>
+ <tr bgcolor="#E2E2E2">
+  <td>wk2: 3/6</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter03 词法分析（1）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter03 词法分析（1）</a>
+  </td>
+  <td align="center">
+    <font color="purple"><a class="link-other" href="https://github.com/arcsysu/YatCC/tree/main/task/1">proj1</a> out</font>
+    [<a class="link-other" href="https://arcsysu.github.io/YatCC/#/task1_doc/overview">doc</a>]
+	  [<img src="acc/vid_icon.png" height=20 /><a class="link-other" href="https://www.bilibili.com/video/BV1rL9pY6ECo/?spm_id_from=333.999.0.0">intro</a>]<br>
+    <a class="link-other" href="slides-25/YatCC-AI_lab1.pdf"><img src="acc/PDF_icon.png" height=20 />proj1</a><br>
+    <font color="red"><s>proj0 due</s></font>
+  	<!-- [<a class="link-other" href="https://arcsysu.github.io/SYsU-lang2/#/task1_doc/overview">doc</a>] -->
+	<!-- [<img src="acc/vid_icon.png" height=20 /><a class="link-other" href="https://www.bilibili.com/video/BV17Z42187p4">lexer</a>]  -->
+  </td>
+  <td align="center"></td>
+ </tr>
+
+ <tr>
+  <td>wk3: 3/11</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter03 词法分析（2）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter03 词法分析（2）</a>
+  </td>
+  <td align="center"></td>
+  <td align="center">
+  </td>
+ </tr>
+ <tr>
+  <td>wk3: 3/13</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter03 词法分析（3）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter03 词法分析（3）</a>
+  </td>
+  <td align="center">Lab</td>
+  <td align="center">
+	  <a class="link-other" href="slides-25/第三章课后作业.pdf"><img src="acc/PDF_icon.png" height=20 />第三章课后作业</a><br>
+    quiz1<a class="link-other" href="slides-25/Quiz 1-22计科(人工大数据、系统方向+辅修).pdf">(计科)</a>/
+    <a class="link-other" href="slides-25/Quiz 1-22计科2班.pdf">(计科2班)</a>
+  </td>
+ </tr>
+
+ <tr bgcolor="#E2E2E2">
+  <td>wk4: 3/18</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter04 语法分析（1）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter04 语法分析（1）</a>
+  </td>
+  <td align="center"></td>
+  <td align="center"></td>
+ </tr>
+ <tr bgcolor="#E2E2E2">
+  <td>wk4: 3/20</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter04 语法分析（2）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter04 语法分析（2）</a>
+  </td>
+  <td align="center">
+    <font color="purple"><a class="link-other" href="https://github.com/arcsysu/YatCC/tree/main/task/2">proj2</a> out</font>
+    [<a class="link-other" href="https://arcsysu.github.io/YatCC/#/task2_doc/overview">doc</a>]
+	  [<img src="acc/vid_icon.png" height=20 /><a class="link-other" href="https://www.bilibili.com/video/BV13XXPYBEZw/?spm_id_from=333.1387.homepage.video_card.click">bis</a>/<a class="link-other" href="https://www.bilibili.com/video/BV1QeXNYzEew/?spm_id_from=333.1387.homepage.video_card.click">ant</a>]<br>
+    <a class="link-other" href="slides-25/YatCC-AI_lab2.pdf"><img src="acc/PDF_icon.png" height=20 />proj2</a>
+  </td>
+  <td align="center"></td>
+ </tr>
+
+ <tr>
+  <td>wk5: 3/25</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter04 语法分析（3）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter04 语法分析（3）</a>
+  </td>
+  <td align="center"></td>
+  <td align="center">
+    <a class="link-other" href="slides-25/第四章课后作业1.pdf"><img src="acc/PDF_icon.png" height=20 />第四章课后作业1</a>
+  </td>
+ </tr>
+ <tr>
+  <td>wk5: 3/27</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter04 语法分析（4）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter04 语法分析（4）</a>
+  <td align="center">Lab</td>
+  <td align="center">
+<!--     <font color="red"><s>HW1 due</s></font>/<a class="link-other" href="slides-25/quiz2.pdf"><img src="acc/PDF_icon.png" height=20 />Q2</a> -->
+  </td>
+ </tr>
+
+ <tr bgcolor="#E2E2E2">
+  <td>wk6: 4/1</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter04 语法分析（5）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter04 语法分析（5）</a>
+  </td>
+  <td align="center"></td>
+  <td align="center"></td>
+ </tr>
+<tr bgcolor="#E2E2E2">
+  <td>wk6: 4/3</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter04 语法分析（6）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter04 语法分析（6）</a>
+  </td>
+  <td align="center">Lab</td>
+  <td align="center">
+    quiz2<a class="link-other" href="slides-25/Quiz 2-22计科(人工大数据、系统方向+辅修).pdf">(计科)</a>/
+    <a class="link-other" href="slides-25/Quiz 2-22计科2班.pdf">(计科2班)</a>
+  </td>
+ </tr>
+
+ <tr>
+  <td>wk7: 4/8</td>
+  <td>
+    <!-- <a class="link-other" href="slides-25/lec_11-split.pdf"><img src="acc/PDF_icon.png" height=20 />Syntax: LR-parse (2)</a> -->
+    <a class="link-other" href="slides-25/Chapter04 语法分析（7）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter04 语法分析（7）</a>    
+  </td>
+  <td align="center"></td>
+  <td align="center">
+	  <a class="link-other" href="slides-25/第四章课后作业2.pdf"><img src="acc/PDF_icon.png" height=20 />第四章课后作业2</a>
+  </td>
+ </tr>
+ <tr>
+  <td>wk7: 4/10</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter04 语法分析（8）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter04 语法分析（8）</a><br>
+    <a class="link-other" href="slides-25/Chapter05 语法制导的翻译（1）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter05 语法制导的翻译（1）</a>
+  </td>
+  <td align="center">Lab</td>
+  <td align="center"></td>
+ </tr>
+
+ <tr bgcolor="#E2E2E2">
+  <td>wk8: 4/15</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter05 语法制导的翻译（2）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter05 语法制导的翻译（2）</a>
+  </td>
+  <td align="center"></td>
+  <td align="center"></td>
+ </tr>
+ <tr bgcolor="#E2E2E2">
+  <td>wk8: 4/17</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter05 语法制导的翻译（3）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter05 语法制导的翻译（3）</a>
+  </td><td align="center">Lab</td>
+  <td align="center">
+    quiz3<a class="link-other" href="slides-25/Quiz 3-22计科(人工大数据、系统方向+辅修).pdf">(计科)</a>/
+    <a class="link-other" href="slides-25/Quiz 3-22计科2班.pdf">(计科2班)</a>
+  </td>
+ </tr>
+
+
+ <tr>
+  <td>wk9: 4/22</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter05 语法制导的翻译（4）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter05 语法制导的翻译（4）</a>
+  </td>
+  <td align="center"></td>
+  <td align="center">
+    <a class="link-other" href="slides-25/第五章课后作业.pdf"><img src="acc/PDF_icon.png" height=20 />第五章课后作业</a>
+  </td>
+ </tr>
+ <tr>
+  <td>wk9: 4/24</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter06 中间代码生成（1）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter06 中间代码生成（1）</a>
+  </td>
+  <td align="center">
+    <font color="purple">proj3 out</font>
+	  [<a class="link-other" href="https://arcsysu.github.io/YatCC/#/task3_doc/overview">doc</a>]
+	  [<img src="acc/vid_icon.png" height=20 /><a class="link-other" href="https://www.bilibili.com/video/BV12VdTYkEBV">IRgen</a>]<br>
+    <a class="link-other" href="slides-25/YatCC-AI_lab3.pdf"><img src="acc/PDF_icon.png" height=20 />proj3</a>
+  <br>
+  <td align="center">
+	  <!-- <font color="brown"><img src="acc/PDF_icon.png" height=20 /><a class="link-other" href="slides-25/hw3.pdf">HW3</a></font> -->
+	  <!-- /<img src="acc/PDF_icon.png" height=20 /><a class="link-other" href="slides-25/hw3-sol.pdf">sol</a> -->
+  </td>
+ </tr>
+
+ <tr bgcolor="#ECC86E">
+  <td colspan="4"><hr width="100%" /></td>
+ </tr>
+
+<tr bgcolor="#E2E2E2">
+  <td><s>wk10: 5/1</s></td>
+  <td></td>
+  <td align="center">
+    <font color="red">proj1/proj2 due</font>
+  </td>
+  <td align="center">HOLIDAY</td>
+ </tr>
+
+<tr>
+  <td>wk11: 5/8</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter06 中间代码生成（2）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter06 中间代码生成（2）</a>
+  </td>
+  <td align="center">Lab</td>
+  <td align="center"></td>
+ </tr>
+
+ <tr bgcolor="#E2E2E2">
+  <td>wk12: 5/15</td>
+  <td>
+    <a class="link-other" href="slides-25/Chapter06 中间代码生成（3）.pdf"><img src="acc/PDF_icon.png" height=20 />Chapter06 中间代码生成（3）</a>
+  </td>
+  <td align="center"><font color="purple">
+    <font color="purple">proj4 out</font>
+	  [<a class="link-other" href="https://arcsysu.github.io/YatCC/#/task4_doc/overview">doc</a>]
+	  [<img src="acc/vid_icon.png" height=20 /><a class="link-other" href="https://www.bilibili.com/video/BV1NMEgzYEso">IRopt</a>]<br>
+    <a class="link-other" href="slides-25/YatCC-AI_lab4.pdf"><img src="acc/PDF_icon.png" height=20 />proj4</a>
+  </font></td>
+  <td align="center">
+    quiz4<a class="link-other" href="slides-25/Quiz 4-22计科(人工大数据、系统方向+辅修).pdf">(计科)</a>/
+    <a class="link-other" href="slides-25/Quiz 4-22计科2班.pdf">(计科2班)</a>
+  </td>
+ </tr>
+
+<tr>
+  <td>wk13: 5/22</td>
+  <td>
+    <!-- <a class="link-other" href="slides-25/lec_20-split.pdf"><img src="acc/PDF_icon.png" height=20 />IR Gen(3), Code Optimization (1)</a><img src="acc/quiz_icon.png" height=20 /> -->
+  </td>
+  <td align="center">
+    <font color="purple">proj5 out</font>/<font color="red">proj3 due</font>
+  	<!-- [<a class="link-other" href="https://arcsysu.github.io/SYsU-lang2/#/task4_doc/overview">doc</a>] -->
+	  <!-- [<img src="acc/vid_icon.png" height=20 /><a class="link-other" href="https://www.bilibili.com/video/BV1Ab421q7HU">IRopt</a>] -->
+  </td>
+  <td align="center"></td>
+ </tr>
+
+ <tr bgcolor="#E2E2E2">
+  <td>wk14: 5/29</td>
+  <td>
+    <!-- <a class="link-other" href="slides-25/lec_21.pdf"><img src="acc/PDF_icon.png" height=20 />Code Optimization (2)</a> -->
+  </td>
+  <td align="center">Lab</td>
+  <td align="center"></td>
+ </tr>
+
+<tr>
+  <td>wk15: 6/5</td>
+  <td>
+    <!-- <a class="link-other" href="slides-25/lec_22.pdf"><img src="acc/PDF_icon.png" height=20 />Target Code Generation (1)</a><img src="acc/quiz_icon.png" height=20 /> -->
+  </td>
+  <td align="center">Lab</td>
+  <td align="center">
+	  <!-- <font color="brown"><img src="acc/PDF_icon.png" height=20 /><a class="link-other" href="slides-25/hw4.pdf">HW4</a></font> -->
+	  <!-- /<img src="acc/PDF_icon.png" height=20 /><a class="link-other" href="slides-25/hw4-sol.pdf">sol</a> -->
+  </td>
+ </tr>
+
+ <tr bgcolor="#E2E2E2">
+  <td>wk16: 6/12</td>
+  <td></td>
+  <td align="center">Lab</td>
+  <td align="center"></td>
+ </tr>
+
+ <tr>
+  <td>wk17: 6/19</td>
+  <td>
+    <!-- <a class="link-other" href="slides-25/lec_23.pdf"><img src="acc/PDF_icon.png" height=20 />Target Code Generation (2)</a> -->
+    <!-- <a class="link-other" href="slides-25/yatcc.pdf"><img src="acc/PDF_icon.png" height=20 />Yat-CC</a> -->
+  </td>
+  <td align="center">
+	  <font color="red"><s>proj4 due</s></font><br>
+      <font color="red"><s>proj5 due</s></font><br>
+  </td>
+  <td align="center">
+    <!-- <font color="red"><s>HW4 due</s></font> -->
+  </td>
+ </tr>
+
+
+
+ <tr bgcolor="#ECC86E">
+  <td>wk18: 6/26 </td>
+  <td>NO CLASS</td>
+  <td align="center"> FINAL EXAM </td>
+  <td align="center"></td>
+ </tr>
+
+</table>
+</body>
+</html>
